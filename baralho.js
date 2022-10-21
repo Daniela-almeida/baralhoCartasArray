@@ -16,6 +16,7 @@ let menu = prompt("Baralho de cartas atual:" + baralhoDeCartas +
   "\n3. Sair" 
    )
 
+// adicionar carta - push
   
   switch(menu) {
     case "1":
@@ -29,7 +30,7 @@ let menu = prompt("Baralho de cartas atual:" + baralhoDeCartas +
     )
     break
 
-  
+ // retirar carta - shift
     case "2":
       let puxarCarta = prompt("Qual carta gostaria de puxar?")
       baralhoDeCartas.shift(puxarCarta);
